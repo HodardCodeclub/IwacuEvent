@@ -2,3 +2,25 @@
 2018-06-09 15:00:28,938  INFO     d34951430bbf4785  indico.rh                 GET /bootstrap [IP=127.0.0.1] [PID=29210] [UID=None]
 2018-06-09 15:00:50,625  INFO     661fce72226649eb  indico.rh                 GET /bootstrap [IP=127.0.0.1] [PID=29210] [UID=None]
 2018-06-09 15:10:44,136  INFO     2ee825c2e9cd4627  indico.rh                 GET /bootstrap [IP=127.0.0.1] [PID=29210] [UID=None]
+2018-06-09 15:45:12,692  INFO     b89c0ee9040445c9  indico.rh                 GET /bootstrap [IP=127.0.0.1] [PID=29210] [UID=None]
+2018-06-09 15:49:28,475  INFO     84305f59c81b4af5  indico.rh                 POST /bootstrap [IP=127.0.0.1] [PID=29210] [UID=None]
+2018-06-09 15:49:34,213  INFO     84305f59c81b4af5  indico.cephalopod         successfully registered the server to the community hub
+2018-06-09 15:49:34,410  INFO     5bacf4eecd5b41b3  indico.rh                 GET / [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-09 15:52:08,350  INFO     e2e377a0968c46cc  indico.rh                 GET /rooms/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-09 15:52:08,462  INFO     6d61b44c86124092  indico.rh                 GET /rooms/book [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-09 15:52:14,586  INFO     7cec6b3cf8624177  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/rooms/book', u'params': {u'start_date': u'2018-06-9', u'end_date': u'2018-06-9'}, u'method': u'roomBooking.getDateWarning'}
+2018-06-09 16:38:39,435  INFO     59bcd0793abc4103  indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-09 16:38:43,950  INFO     8f7d3fcbbf2e47b1  indico.rh                 GET /admin/version-check?_=1528555121966 [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-09 16:38:43,983  WARNING  8f7d3fcbbf2e47b1  indico.versioncheck       Version check for indico failed: HTTPSConnectionPool(host='pypi.python.org', port=443): Max retries exceeded with url: /pypi/indico/json (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f5184344810>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+2018-06-09 16:39:26,818  INFO     6cb85d58bb4247c3  indico.rh                 POST /admin/settings/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-09 16:39:26,973  INFO     2b85d77460e34fc8  indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-09 16:39:30,407  INFO     18a968b4949a4115  indico.rh                 GET /admin/version-check?_=1528555167795 [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-09 16:39:30,434  WARNING  18a968b4949a4115  indico.versioncheck       Version check for indico failed: HTTPSConnectionPool(host='pypi.python.org', port=443): Max retries exceeded with url: /pypi/indico/json (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f51842b5e90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+2018-06-09 16:45:05,690  INFO     f4b1ebb216a84ee7  indico.rh                 GET /admin/announcement [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-09 16:54:17,638  INFO     86295962f7aa4afb  indico.rh                 GET /admin/news/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-09 16:54:25,972  INFO     d3aaf170280e4f4e  indico.rh                 GET /admin/upcoming-events [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-09 16:54:47,392  INFO     6ffff1cdda1c4b5f  indico.rh                 GET /admin/apps/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-09 19:41:27,372  INFO     8d50b097208c407c  indico.rh                 GET /admin/announcement [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-09 19:41:33,350  INFO     1350c808510a4ee0  indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-09 19:41:35,451  INFO     8497dbc641094b99  indico.rh                 GET /admin/version-check?_=1528566094016 [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-09 19:41:35,480  WARNING  8497dbc641094b99  indico.versioncheck       Version check for indico failed: HTTPSConnectionPool(host='pypi.python.org', port=443): Max retries exceeded with url: /pypi/indico/json (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f5184285f10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
