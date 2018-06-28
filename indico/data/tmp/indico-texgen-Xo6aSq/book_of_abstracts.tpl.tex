@@ -1,0 +1,169 @@
+
+
+
+    \documentclass[a4paper, 11pt, twoside]{book} %% document type
+
+
+
+\usepackage[a4paper, top=1em, bottom=10em]{geometry}
+
+
+\usepackage{hyperref}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{fontspec}
+
+\usepackage[english]{babel}
+\usepackage[final, babel]{microtype} %% texblog.net/latex-archive/layout/pdflatex-microtype/
+
+\usepackage{float} %% improved interface for floating objects
+\usepackage[export]{adjustbox}
+\usepackage[usenames,dvipsnames]{xcolor} %% named colors
+\usepackage{sectsty} %% style sections
+\usepackage{xstring}
+\usepackage{tcolorbox}
+\usepackage[inline]{enumitem}
+\usepackage[breakall]{truncate}
+\usepackage[parfill]{parskip}
+
+
+    
+    \usepackage{fancyhdr} %% headers
+
+    \setlength{\headheight}{60pt}
+    \pagestyle{fancy}
+    \renewcommand{\headrulewidth}{0pt}
+
+    \newenvironment{boa_text}
+    {
+       \cleardoublepage
+       \thispagestyle{empty}
+       \vspace*{\stretch{1}}
+       \begin{minipage}[t]{0.66\textwidth}
+    }%
+    {
+       \end{minipage}
+       \vspace*{\stretch{3}}
+       \clearpage
+    }
+
+
+    \makeatletter
+\renewcommand\tableofcontents{%
+    \if@twocolumn
+      \@restonecoltrue\onecolumn
+    \else
+      \@restonecolfalse
+    \fi
+    \chapter*{\contentsname}%
+    \@starttoc{toc}%
+    \if@restonecol\twocolumn\fi
+}
+\renewcommand*\l@chapter[2]{%
+  \ifnum \c@tocdepth >\m@ne
+    \addpenalty{-\@highpenalty}%
+    \vskip 1.0em \@plus\p@
+    \setlength\@tempdima{1.5em}%
+    \begingroup
+      \parindent \z@ \rightskip \@pnumwidth
+      \parfillskip -\@pnumwidth
+      \leavevmode
+      \advance\leftskip\@tempdima
+      \hskip -\leftskip
+      #1\nobreak
+      \xleaders\hbox{$\m@th
+        \mkern \@dotsep mu\hbox{.}\mkern \@dotsep
+        mu$}\hfill%
+      \nobreak\hb@xt@\@pnumwidth{\hss #2}\par
+      \penalty\@highpenalty
+    \endgroup
+  \fi}
+\makeatother
+
+
+
+\begin{document}
+
+   %% set fonts
+    \setmainfont{LinLibertine_R.otf}[
+        BoldFont = LinLibertine_RB.otf,
+        ItalicFont = LinLibertine_RI.otf,
+        BoldItalicFont = LinLibertine_RBI.otf,
+        Path = /home/hodard/dev/indico/env/lib/python2.7/site-packages/indico_fonts/]
+    \setsansfont{LinBiolinum_R.otf}[
+        BoldFont = LinBiolinum_RB.otf,
+        ItalicFont = LinBiolinum_RI.otf,
+        Path = /home/hodard/dev/indico/env/lib/python2.7/site-packages/indico_fonts/]
+
+   %% no indentation
+    \setlength{\parindent}{0cm}
+
+   %% helper commands
+
+    \newcommand{\truncateellipses}[2]{
+       \truncate{#2}{#1}
+    }
+
+   %% remove section heading numbering
+    \setcounter{secnumdepth}{0}
+
+    
+    \setcounter{tocdepth}{0} %% remove table of contents numbering
+
+   %% first page
+    \frontmatter
+    
+    
+
+\begin{titlepage}
+
+\thispagestyle{fancy}
+
+\begin{center}
+    \fontsize{30}{36}\selectfont \textbf{Public lectures}
+\end{center}
+
+\vspace{2em}
+
+    \begin{center}
+        \Large
+        Thursday 14 June 2018 -
+        Thursday 28 June 2018
+    \end{center}
+
+        \begin{center}
+            \Large
+            Kibuye
+        \end{center}
+
+    \vspace{2em}
+
+    \vspace{2em}
+
+
+
+\vspace{2em}
+
+\begin{center}
+    {\fontsize{35}{42}\selectfont \sffamily \textbf{Book of Abstracts}}
+\end{center}
+
+    \fancyfoot[C]{}
+
+\end{titlepage}
+
+
+
+
+    
+   %% TOC
+    \tableofcontents
+
+
+   %% body
+    \mainmatter
+    
+
+
+
+\end{document}

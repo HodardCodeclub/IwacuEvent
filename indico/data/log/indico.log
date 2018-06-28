@@ -88,3 +88,489 @@
 2018-06-09 23:35:36,526  INFO     25cc5ec38a7c468b  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/rooms/book', u'params': {u'start_date': u'2018-06-10', u'end_date': u'2018-06-10'}, u'method': u'roomBooking.getDateWarning'}
 2018-06-09 23:38:06,382  INFO     79e9688de9e0452f  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=29210] [UID=1]
 2018-06-09 23:39:10,388  INFO     9ab3aca2db244f82  indico.rh                 GET /admin/tasks/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 09:40:40,778  INFO     9b88a52d5d7246d0  indico.rh                 GET / [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 09:40:54,083  INFO     4b92f3f3aea84d81  indico.rh                 GET / [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 09:43:19,877  INFO     95f1bc54b39e4a6c  indico.rh                 GET /rooms/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 09:43:20,027  INFO     e6a50a70f6904cef  indico.rh                 GET /rooms/book [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 09:43:23,805  INFO     e6c612ddd409484f  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/rooms/book', u'params': {u'start_date': u'2018-06-10', u'end_date': u'2018-06-10'}, u'method': u'roomBooking.getDateWarning'}
+2018-06-10 09:43:39,238  INFO     3537891fb057417e  indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 09:43:42,236  INFO     29bc86084e924b1a  indico.rh                 GET /admin/version-check?_=1528616620392 [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 09:44:12,885  INFO     04a5e28d5925490e  indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 09:44:15,402  INFO     25baf19720dc4c08  indico.rh                 GET /admin/version-check?_=1528616653911 [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 09:44:22,807  INFO     315b7bd644564e3e  indico.rh                 GET / [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 09:44:30,870  INFO     c1469c8bbcb54f54  indico.rh                 GET /rooms/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 09:44:30,935  INFO     3a55c2bdcd314e35  indico.rh                 GET /rooms/book [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 09:44:34,830  INFO     1e0cc95d961b4883  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/rooms/book', u'params': {u'start_date': u'2018-06-10', u'end_date': u'2018-06-10'}, u'method': u'roomBooking.getDateWarning'}
+2018-06-10 09:51:03,132  INFO     597551a45c1e4fc9  indico.rh                 GET /contact [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 09:52:42,728  INFO     8a1d08b0fea34895  indico.rh                 GET / [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 09:53:28,880  INFO     9a542966578d4566  indico.rh                 GET / [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:00:58,150  INFO     99dde8ec971048a3  indico.rh                 GET /event/create/lecture?category_id=0&_=1528617209958 [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:00:59,007  INFO     7e79c72e4dca44ca  indico.rh                 GET /category/0/info [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:01:48,603  INFO     3569de0391c8403f  indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:01:50,896  INFO     08e9c897804c4058  indico.rh                 GET /admin/version-check?_=1528617709472 [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:04:23,997  INFO     ea2b09f874bd4ea2  indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:04:26,280  INFO     967226394d4b45cc  indico.rh                 GET /admin/version-check?_=1528617864697 [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:07:13,533  INFO     0aef9ae913da46da  indico.rh                 GET /admin/news/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:07:19,290  INFO     88df756dab484248  indico.rh                 GET /admin/news/create?_=1528618034208 [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:08:16,663  INFO     1941253aaac94d9c  indico.rh                 GET /admin/payment/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:10:47,543  INFO     ce3f242cd14d46c3  indico.rh                 POST /admin/payment/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:10:47,884  INFO     530e6841d72a446c  indico.rh                 GET /admin/payment/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:12:47,132  INFO     05205e587df64154  indico.rh                 POST /admin/payment/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:12:47,207  INFO     07993cdf84de40c3  indico.rh                 GET /admin/payment/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:13:58,074  INFO     3128044479874640  indico.rh                 GET /admin/external-id-types/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:14:03,855  INFO     c857170e6982424c  indico.rh                 GET /admin/external-id-types/create?_=1528618439267 [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:14:25,404  INFO     c2fc0b5af7f54ac3  indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:14:27,794  INFO     e343a7856f404637  indico.rh                 GET /admin/version-check?_=1528618466229 [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:28:25,720  INFO     eb3e40c47cce4d26  indico.rh                 GET /rooms/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:28:25,846  INFO     8fd00c6e8fce425d  indico.rh                 GET /rooms/book [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:28:29,422  INFO     57aa096382194bf0  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/rooms/book', u'params': {u'start_date': u'2018-06-10', u'end_date': u'2018-06-10'}, u'method': u'roomBooking.getDateWarning'}
+2018-06-10 10:38:55,120  INFO     1bd23e32bb1a40f5  indico.rh                 GET / [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:39:04,123  INFO     fff2933fdc444a17  indico.rh                 GET /logout/?next=%2F [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:39:04,208  INFO     e5e99e1350384d85  indico.rh                 GET / [IP=127.0.0.1] [PID=29210] [UID=None]
+2018-06-10 10:41:55,518  INFO     604172ca297849a1  indico.rh                 GET /login/ [IP=127.0.0.1] [PID=29210] [UID=None]
+2018-06-10 10:42:11,189  INFO     125e2abc712c4c08  indico.rh                 POST /login/ [IP=127.0.0.1] [PID=29210] [UID=None]
+2018-06-10 10:42:12,295  INFO     125e2abc712c4c08  indico.auth               Received identity info: <IdentityInfo(<IndicoIdentityProvider(indico)>, hodard, None)>
+2018-06-10 10:42:12,325  INFO     125e2abc712c4c08  indico.auth               Found existing identity <Identity(1, 1, indico, hodard)> for user <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo">
+2018-06-10 10:42:12,565  INFO     d8b7f14f9c294783  indico.rh                 GET / [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:42:28,170  INFO     5774cea7a63b4475  indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:42:30,552  INFO     01b5cfc755324c7d  indico.rh                 GET /admin/version-check?_=1528620148984 [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:42:58,435  INFO     5cfad93be039436e  indico.rh                 GET /admin/plugins/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:43:47,139  INFO     1009c95c29094987  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:44:03,079  INFO     3225319f45f84549  indico.rh                 POST /admin/rooms/locations/add [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:44:03,366  INFO     9314e7c14a4842cf  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:44:50,792  INFO     9e945915ba074d71  indico.rh                 POST /admin/rooms/locations/add [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:44:50,937  INFO     6ddb398597a44578  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:45:01,526  INFO     1d139016274f46bf  indico.rh                 POST /admin/rooms/locations/delete [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:45:02,135  INFO     b403e8f7904149c3  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:45:15,560  INFO     940b6279726443c0  indico.rh                 POST /admin/rooms/locations/delete [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:45:15,838  INFO     8783745216e7425a  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:45:33,813  INFO     37f0423e52ed40ac  indico.rh                 POST /admin/rooms/locations/add [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:45:33,950  INFO     890ffcc7a3ba4376  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:45:55,220  INFO     9e8bbc8d50d64b0f  indico.rh                 POST /admin/rooms/locations/add [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:45:55,373  INFO     13e44a2b39ab4617  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:46:08,948  INFO     65c73e0e2eec4869  indico.rh                 POST /admin/rooms/locations/add [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:46:09,106  INFO     3f7d7ffc0bd0493e  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:46:22,577  INFO     6e787619432b4952  indico.rh                 POST /admin/rooms/locations/add [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:46:22,693  INFO     7c471a2ad77b499c  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:46:42,777  INFO     6d26656c2d224d2b  indico.rh                 POST /admin/rooms/locations/add [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:46:42,909  INFO     1eccb2fa8a89408f  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:47:12,948  INFO     a9d2588fd5234c9d  indico.rh                 POST /admin/rooms/locations/add [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:47:13,065  INFO     e7df2a9fd7b649db  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:47:33,493  INFO     a21567e775d7434f  indico.rh                 POST /admin/rooms/locations/add [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:47:33,597  INFO     6890fab14afa4441  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:48:42,231  INFO     7dfd96c1794c4977  indico.rh                 POST /admin/rooms/locations/add [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:48:42,388  INFO     a7fe9f6fa18e4f69  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:49:00,038  INFO     0172da787ef34e92  indico.rh                 GET /admin/rooms/config/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:50:52,332  INFO     3f28908f9c334426  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/admin/rooms/config/', u'params': {u'organisation': u'RISA', u'surName': u'Robert', u'name': u'Twagiramungu', u'exactMatch': False, u'email': u'robert@gmail.com'}, u'method': u'search.users'}
+2018-06-10 10:51:15,805  INFO     2a3cdfaf31b04887  indico.rh                 GET /admin/admins [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:52:54,842  INFO     e2080f5ec1fa471e  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/admin/admins', u'params': {u'organisation': u'UR-CST', u'surName': u'Twagiramungu', u'name': u'Robert', u'exactMatch': True, u'email': u'twagrobert2000@gmail.com'}, u'method': u'search.users'}
+2018-06-10 10:53:01,766  INFO     5c1f0452191a424d  indico.rh                 GET /user/favorites/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:53:28,347  INFO     c877a770d6a14080  indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:54:01,557  INFO     9e1ce3f29d10440a  indico.rh                 GET /user/profile/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:54:35,611  INFO     f6748fd5b56542fe  indico.rh                 POST /user/profile/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:54:35,771  INFO     0d5db852eb2b40d9  indico.rh                 GET /user/profile/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:54:43,233  INFO     31b73225bc1645a3  indico.rh                 GET /user/emails/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:55:03,420  INFO     4bfa623973bb4871  indico.rh                 POST /user/emails/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:55:04,951  ERROR    4bfa623973bb4871  indico.emails             Flushing queued email "[Indico] Verify your email" failed; stored data in /home/hodard/dev/indico/data/tmp/failed-email-2018-06-10-CHzaWT
+Traceback (most recent call last):
+  File "/home/hodard/dev/indico/src/indico/core/notifications.py", line 113, in flush_email_queue
+    fn(email, log_entry)
+  File "/home/hodard/dev/indico/src/indico/core/emails.py", line 93, in do_send_email
+    with EmailBackend(timeout=config.SMTP_TIMEOUT) as conn:
+  File "/home/hodard/dev/indico/src/indico/util/emails/backend.py", line 75, in __enter__
+    self.open()
+  File "/home/hodard/dev/indico/src/indico/util/emails/backend.py", line 146, in open
+    self.connection.starttls(keyfile=self.ssl_keyfile, certfile=self.ssl_certfile)
+  File "/usr/lib/python2.7/smtplib.py", line 644, in starttls
+    raise SMTPException("STARTTLS extension not supported by server.")
+SMTPException: STARTTLS extension not supported by server.
+2018-06-10 10:55:05,800  INFO     a61295c09ab046de  indico.rh                 GET /user/emails/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:55:10,474  INFO     bb2fd1d6a34a4376  indico.rh                 GET /user/preferences/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:56:34,688  INFO     f105a381ba0a4d56  indico.rh                 GET /user/favorites/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:56:45,093  INFO     90bc5288adc74b85  indico.rh                 GET /user/accounts/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:57:04,837  INFO     0a674068dace4f25  indico.rh                 GET /user/applications/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:57:22,211  INFO     7145bd004623432c  indico.rh                 GET /user/api/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:57:33,754  INFO     cb74244556eb44bd  indico.rh                 POST /user/api/create [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:57:33,924  INFO     ec1bc0c9f39e4d4d  indico.rh                 GET /user/api/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:58:01,251  INFO     d3ac633ed2a54b41  indico.rh                 POST /user/api/create [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:58:01,381  INFO     99c9fd536c5e4113  indico.rh                 GET /user/api/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:58:15,875  INFO     dbcef18fc8324de4  indico.rh                 POST /user/api/block [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:58:15,999  INFO     e497cb6a0b4c4d22  indico.rh                 GET /user/api/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:58:41,323  INFO     907cbf614ae449fd  indico.rh                 POST /user/api/block [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:58:41,411  INFO     404354e7ed3c40e0  indico.rh                 GET /user/api/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:59:09,431  INFO     a6ba7801088b40d6  indico.rh                 GET /user/applications/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 10:59:19,360  INFO     fd9183596b4f40b4  indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:00:20,062  INFO     57b7fba8426b4514  indico.rh                 GET /user/profile/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:01:20,197  INFO     7a3edd23346e463b  indico.rh                 GET /user/preferences/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:01:49,447  INFO     3e5881a83ee6472f  indico.rh                 GET /event/create/lecture?_=1528621281103 [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:01:50,167  INFO     7e9cdd5741d7469b  indico.rh                 GET /category/0/info [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:02:36,226  INFO     b243667b27054bc4  indico.rh                 GET /event/create/meeting?_=1528621281104 [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:02:36,849  INFO     ca4ed2b487664358  indico.rh                 GET /category/0/info [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:03:52,509  INFO     c18cf3c47c6b4f03  indico.rh                 GET /event/create/conference?_=1528621281105 [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:03:52,995  INFO     bb051fc3aae3421f  indico.rh                 GET /category/0/info [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:04:41,624  INFO     f373d8a792bb4355  indico.rh                 GET /rooms/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:04:41,775  INFO     d22ed8d687ea4ebb  indico.rh                 GET /rooms/book [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:04:45,481  INFO     d9b7905fd5c248c0  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/rooms/book', u'params': {u'start_date': u'2018-06-10', u'end_date': u'2018-06-10'}, u'method': u'roomBooking.getDateWarning'}
+2018-06-10 11:06:59,458  INFO     a72e7ba1cfb144f5  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:07:31,997  INFO     f83a9a623d7d486a  indico.rh                 POST /admin/rooms/locations/add [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:07:39,368  INFO     da2c6557f07d44cb  indico.rh                 GET / [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:07:44,002  INFO     ecb5f64959db4b1d  indico.rh                 GET /rooms/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:07:44,081  INFO     f54641fe716a4403  indico.rh                 GET /rooms/book [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:07:48,144  INFO     178ab3ab3bfb4661  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/rooms/book', u'params': {u'start_date': u'2018-06-10', u'end_date': u'2018-06-10'}, u'method': u'roomBooking.getDateWarning'}
+2018-06-10 11:08:01,276  INFO     7dd8d680d5a7445e  indico.rh                 GET /rooms/calendar [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:08:51,357  INFO     931f405f0a494d2b  indico.rh                 GET /rooms/book [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:08:55,207  INFO     94639b3b448b47e5  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/rooms/book', u'params': {u'start_date': u'2018-06-10', u'end_date': u'2018-06-10'}, u'method': u'roomBooking.getDateWarning'}
+2018-06-10 11:09:23,130  INFO     1585b10882674b7f  indico.rh                 GET /rooms/bookings/search/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:10:22,154  INFO     c9502e3d541a45f6  indico.rh                 GET /rooms/rooms/search/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:10:25,551  INFO     13b7617e11df40b6  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/rooms/rooms/search/', u'params': {u'sdate': u'10/6/2018', u'include_pre_bookings': u'y', u'repeatability': u'None', u'is_only_public': u'y', u'is_only_active': u'y', u'sYear': u'2018', u'capacity': u'', u'eYear': u'2018', u'eMonth': u'6', u'sTime': u'08:30', u'eDay': u'10', u'details': u'', u'edate': u'10/6/2018', u'location': u'3', u'available': u'-1', u'include_pending_blockings': u'y', u'eTime': u'17:30', u'is_auto_confirm': u'y', u'sDay': u'10', u'start_dt': u'10/6/2018 08:30', u'end_dt': u'10/6/2018 17:30', u'sMonth': u'6'}, u'method': u'roomBooking.getDateWarning'}
+2018-06-10 11:11:43,167  INFO     23384eb85f2049e0  indico.rh                 GET /rooms/blocking/create [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:11:46,942  INFO     79674440c18d4761  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/rooms/blocking/create', u'params': {u'isActive': True}, u'method': u'roomBooking.locationsAndRooms.listWithGuids'}
+2018-06-10 11:12:13,293  INFO     81ce92ad41254a9b  indico.rh                 GET /rooms/blocking/list?only_mine=1&timeframe=recent [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:12:22,201  INFO     07f7e2b4c5584090  indico.rh                 GET /rooms/blocking/list?only_mine=0&timeframe=recent [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:12:29,417  INFO     b90adcf98bf04293  indico.rh                 GET /rooms/blocking/list?only_mine=0&timeframe=recent [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:12:40,966  INFO     b093610982c44d47  indico.rh                 GET /rooms/bookings/search/mine/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:12:46,979  INFO     519cfa73541b4a16  indico.rh                 GET /rooms/book [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:12:50,528  INFO     1c82470d9ac846b2  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/rooms/book', u'params': {u'start_date': u'2018-06-10', u'end_date': u'2018-06-10'}, u'method': u'roomBooking.getDateWarning'}
+2018-06-10 11:14:15,501  INFO     2e65a112735b490c  indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:14:18,481  INFO     9b6c26d123334ed0  indico.rh                 GET /admin/version-check?_=1528622056407 [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:17:00,989  INFO     a7a29012ee55456f  indico.rh                 GET /admin/payment/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:18:25,575  INFO     3819e72b3fde4404  indico.rh                 GET /admin/apps/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:18:31,176  INFO     c27cc1c5a9ca4aee  indico.rh                 GET /admin/apps/1/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:20:18,617  INFO     c9f81fe36cac45ed  indico.rh                 GET /admin/community-hub/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:21:17,664  INFO     d56be2e7d7ed458e  indico.rh                 GET /admin/api/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:21:32,572  INFO     1cf21fde044e4a06  indico.rh                 GET /admin/api/keys [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:21:38,312  INFO     f0e7778dabf14a63  indico.rh                 GET /user/1/api/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 11:21:45,660  INFO     c7c442cf1bcf4b1a  indico.rh                 GET /user/1/applications/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 14:22:17,439  INFO     3efa38cf8f954aac  indico.rh                 GET /admin/payment/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 17:46:45,521  INFO     bdfd601c7ea245be  indico.rh                 GET /admin/networks/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 17:47:02,539  INFO     9b202c77dca84669  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 17:47:22,577  INFO     5241435d08dd4b22  indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 17:47:48,984  INFO     fa637a51d6574e18  indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 17:47:51,691  INFO     383bd81389564b03  indico.rh                 GET /admin/version-check?_=1528645670178 [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 17:48:05,271  INFO     63993206f0dd4c0a  indico.rh                 GET /admin/api/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:24:24,160  INFO     9bf57675995f4fd7  indico.rh                 GET / [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:24:37,442  INFO     c84086307c6542b8  indico.rh                 GET /event/create/lecture?category_id=0&_=1528647867389 [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:24:38,945  INFO     ddfae32808874164  indico.rh                 GET /category/0/info [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:26:09,173  INFO     9096de9b9b9e4512  indico.rh                 GET /event/create/conference?category_id=0&_=1528647867390 [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:26:09,903  INFO     a13240f00bf64fd3  indico.rh                 GET /category/0/info [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:26:26,496  INFO     bc16b62101b14ef9  indico.rh                 GET /event/create/meeting?category_id=0&_=1528647867391 [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:26:27,276  INFO     54e87007aeb744d2  indico.rh                 GET /category/0/info [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:26:49,448  INFO     dbfc4777fa3e4339  indico.rh                 GET /rooms/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:26:49,778  INFO     4b46c44babc44747  indico.rh                 GET /rooms/book [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:26:54,070  INFO     3e90d52b28f14da2  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/rooms/book', u'params': {u'start_date': u'2018-06-11', u'end_date': u'2018-06-11'}, u'method': u'roomBooking.getDateWarning'}
+2018-06-10 18:28:00,926  INFO     d123394d68154896  indico.rh                 GET /rooms/calendar [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:28:42,569  INFO     df6022b3991d4721  indico.rh                 GET /rooms/bookings/search/mine/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:28:57,297  INFO     4b16bb511fe746ed  indico.rh                 GET /rooms/bookings/search/mine/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:29:20,966  INFO     c4e39761ae0946f1  indico.rh                 GET /rooms/rooms/search/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:29:24,311  INFO     2d65cd06de38420e  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/rooms/rooms/search/', u'params': {u'sdate': u'10/6/2018', u'include_pre_bookings': u'y', u'repeatability': u'None', u'is_only_public': u'y', u'is_only_active': u'y', u'sYear': u'2018', u'capacity': u'', u'eYear': u'2018', u'eMonth': u'6', u'sTime': u'08:30', u'eDay': u'10', u'details': u'', u'edate': u'10/6/2018', u'location': u'3', u'available': u'-1', u'include_pending_blockings': u'y', u'eTime': u'17:30', u'is_auto_confirm': u'y', u'sDay': u'10', u'start_dt': u'10/6/2018 08:30', u'end_dt': u'10/6/2018 17:30', u'sMonth': u'6'}, u'method': u'roomBooking.getDateWarning'}
+2018-06-10 18:29:46,921  INFO     0f720af41afe4481  indico.rh                 GET / [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:30:01,579  INFO     489501497f474de7  indico.rh                 GET /category/0/statistics [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:32:20,132  INFO     0ad9a3d0e5fd48e9  indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:32:22,738  INFO     ff150a3c541e47a1  indico.rh                 GET /admin/version-check?_=1528648341173 [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:32:28,619  INFO     67a0cc0bc12a4562  indico.rh                 GET /admin/payment/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:33:07,223  INFO     35fc66b04002494b  indico.rh                 GET /admin/tasks/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:33:22,972  INFO     26420f288ee14c02  indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:33:30,927  INFO     deeeda935ae34e63  indico.rh                 GET /user/profile/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:33:37,707  INFO     2893ab0f77b64997  indico.rh                 GET /user/preferences/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:33:43,881  INFO     6592ec30ecaf4b0d  indico.rh                 GET /user/applications/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:33:49,581  INFO     cb54bf28969c48b1  indico.rh                 GET /user/api/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:33:57,949  INFO     129258526c9348d3  indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:34:00,339  INFO     c6dbbddf27264e79  indico.rh                 GET /admin/version-check?_=1528648438837 [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:34:06,651  INFO     71be34df05c64af6  indico.rh                 GET /admin/admins [IP=127.0.0.1] [PID=29210] [UID=1]
+2018-06-10 18:35:22,357  INFO     39768b96fac84c33  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/admin/admins', u'params': {u'organisation': u'DMM.HeHE', u'surName': u'Mugisha', u'name': u'Jules', u'exactMatch': True, u'email': u'jules@gmail.com'}, u'method': u'search.users'}
+2018-06-10 18:35:24,382  INFO     7f0e5db2cb464521  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/admin/admins', u'params': {u'organisation': u'DMM.HeHE', u'surName': u'Mugisha', u'name': u'Jules', u'exactMatch': True, u'email': u'jules@gmail.com'}, u'method': u'search.users'}
+2018-06-10 18:35:27,574  INFO     ba46e0b4cdc5470c  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/admin/admins', u'params': {u'organisation': u'DMM.HeHE', u'surName': u'Mugisha', u'name': u'Jules', u'exactMatch': True, u'email': u'jules@gmail.com'}, u'method': u'search.users'}
+2018-06-10 18:35:28,735  INFO     29821a4e774041fa  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/admin/admins', u'params': {u'organisation': u'DMM.HeHE', u'surName': u'Mugisha', u'name': u'Jules', u'exactMatch': True, u'email': u'jules@gmail.com'}, u'method': u'search.users'}
+2018-06-11 14:45:13,854  INFO     815970ddc9ff4d96  indico.rh                 GET / [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 14:48:08,385  INFO     53f6bc9fecca4cd0  indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 14:48:11,376  INFO     d9531c77b9614921  indico.rh                 GET /admin/version-check?_=1528721290071 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 14:48:41,162  INFO     f54f6f580bdb4dd8  indico.rh                 GET /admin/networks/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 14:50:14,398  INFO     f069b11d0dcb432e  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 14:55:45,581  INFO     53951d1f836c4ae9  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 14:55:54,008  INFO     9a169f81e6d1491d  indico.rh                 GET /rooms/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 14:55:54,202  INFO     7cd84e96f8ae43fa  indico.rh                 GET /rooms/book [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 14:55:58,091  INFO     ed7cb8f5f6d44aec  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/rooms/book', u'params': {u'start_date': u'2018-06-11', u'end_date': u'2018-06-11'}, u'method': u'roomBooking.getDateWarning'}
+2018-06-11 15:00:54,910  INFO     4f92be2cb5324e8c  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/rooms/book', u'params': {u'start_date': u'2018-06-22', u'end_date': u'2018-06-22'}, u'method': u'roomBooking.getDateWarning'}
+2018-06-11 15:01:34,164  INFO     c5c750cabb914cca  indico.rh                 GET /rooms/book [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 15:01:39,069  INFO     43cb9bf79e9143ac  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/rooms/book#', u'params': {u'start_date': u'2018-06-11', u'end_date': u'2018-06-11'}, u'method': u'roomBooking.getDateWarning'}
+2018-06-11 15:24:34,295  INFO     9c46c677b44144d9  indico.rh                 GET /rooms/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 15:24:34,483  INFO     ed9a1b74fde04fba  indico.rh                 GET /rooms/book [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 15:24:38,912  INFO     52e065c0b537464a  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/rooms/book', u'params': {u'start_date': u'2018-06-11', u'end_date': u'2018-06-11'}, u'method': u'roomBooking.getDateWarning'}
+2018-06-11 15:24:40,999  INFO     83dd99c5bad94e71  indico.rh                 GET /rooms/bookings/search/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 15:24:47,754  INFO     d847fee0f37e4842  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 17:49:20,601  INFO     006657895a7547be  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 17:49:22,697  INFO     ff713f6ef5e045d4  indico.rh                 GET /rooms/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 17:49:31,396  INFO     f0f362d9133d4858  indico.rh                 GET /rooms/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 17:49:33,772  INFO     72e69814b3a047d1  indico.rh                 GET /rooms/book [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 17:49:46,422  INFO     07cddc178e774a69  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/rooms/book', u'params': {u'start_date': u'2018-06-12', u'end_date': u'2018-06-12'}, u'method': u'roomBooking.getDateWarning'}
+2018-06-11 20:36:48,582  INFO     c65dd6bf905f4ca5  indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 20:36:57,191  INFO     ebede7664c2b4e46  indico.rh                 GET /admin/version-check?_=1528742215006 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 20:47:54,986  INFO     6f9800f8bb8240dc  indico.rh                 GET /event/create/conference?_=1528742215007 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 20:47:58,532  INFO     471ac791628841c5  indico.rh                 GET /category/0/info [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 20:50:52,084  INFO     605e6d5ad88645a8  indico.rh                 POST /event/create/conference [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 20:50:53,788  INFO     605e6d5ad88645a8  indico.events             Event <Event(1, 2018-06-14 07:00:00+00:00, 2018-06-28 09:00:00+00:00): "Public lectures"> created in <Category(0): "Home"> by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo"> 
+2018-06-11 20:50:55,166  INFO     6eb216a1afc041a6  indico.rh                 GET /event/1/manage/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 20:51:39,008  INFO     f0440e479f534602  indico.rh                 GET /event/1/manage/settings/data?_=1528743062164 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 20:54:32,478  INFO     9e3769a8ccc94d8c  indico.rh                 POST /event/1/manage/settings/data [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 20:54:42,799  INFO     591ff77261514187  indico.rh                 POST /event/1/manage/settings/data [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 20:54:51,308  INFO     da47d62079d24455  indico.rh                 POST /event/1/manage/settings/data [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 20:55:08,979  INFO     80be7aced89041e0  indico.rh                 GET /event/1/manage/settings/dates?_=1528743062165 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 20:55:56,769  INFO     8ae41e514c15460e  indico.rh                 POST /event/1/manage/settings/dates [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 20:55:57,238  INFO     8ae41e514c15460e  indico.events             Event <Event(1, 2018-06-14 07:20:00+00:00, 2018-06-28 09:00:00+00:00): "Public lectures"> updated with {'timezone': u'Africa/Kigali', 'start_dt': datetime.datetime(2018, 6, 14, 7, 20, tzinfo=<UTC>), 'end_dt': datetime.datetime(2018, 6, 28, 9, 0, tzinfo=<UTC>), 'end_dt_override': datetime.datetime(2018, 6, 28, 9, 0, tzinfo=<UTC>), 'start_dt_override': datetime.datetime(2018, 6, 14, 7, 0, tzinfo=<UTC>)} by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo">
+2018-06-11 20:56:05,343  INFO     89836266e6e0463e  indico.rh                 GET /event/1/manage/settings/location?_=1528743062166 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 20:56:21,867  INFO     74158cb6665d4f15  indico.rh                 POST /event/1/manage/settings/location [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 20:56:22,002  INFO     74158cb6665d4f15  indico.events             Event <Event(1, 2018-06-14 07:20:00+00:00, 2018-06-28 09:00:00+00:00): "Public lectures"> updated with {'location_data': {u'venue_id': 5, u'room': None, u'venue_name': u'Kibuye', u'venue': <Location(5, None, Kibuye)>, u'room_name': u'14', u'source': <Event(1, 2018-06-14 07:20:00+00:00, 2018-06-28 09:00:00+00:00): "Public lectures">, u'address': u'KK 13 avenue Gishushu Rwanda', u'inheriting': False}} by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo">
+2018-06-11 20:56:25,930  INFO     5b38074cf4eb46ee  indico.rh                 GET /event/1/manage/settings/persons?_=1528743062167 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 20:58:16,824  INFO     a31ba05d9bc64c68  indico.rh                 POST /event/1/manage/settings/persons [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 20:58:17,335  INFO     a31ba05d9bc64c68  indico.events             Event <Event(1, 2018-06-14 07:20:00+00:00, 2018-06-28 09:00:00+00:00): "Public lectures"> updated with {'person_link_data': {<EventPersonLink(1, person_id=1, event_id=1): "Robert Twagiramungu">: False}} by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo">
+2018-06-11 20:58:24,536  INFO     c0b0b1f440894668  indico.rh                 GET /event/1/manage/settings/contact-info?_=1528743062168 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:01:28,346  INFO     496ef627d3b64af0  indico.rh                 POST /event/1/manage/settings/contact-info [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:01:28,638  INFO     496ef627d3b64af0  indico.events             Event <Event(1, 2018-06-14 07:20:00+00:00, 2018-06-28 09:00:00+00:00): "Public lectures"> updated with {'contact_title': u'Contact', 'contact_phones': [u'07822157070', u'07822157071', u'07822157074'], 'contact_emails': [u'clave@gamil.com', u'rukundo@gmail.com', u'minani@gmail.com'], 'additional_info': u'<div class="g-cell g-cell-1-1 g-cell-md-10-12 g-offset-md-1-12 l-sm-pad-top-5 l-pad-top-6">\n<div class="g-group g-group--page-margin-reset l-sm-pad-top-5 l-pad-top-6">\n<div class="g-cell g-cell-1-1 g-cell--no-gutters ">\n<div class="js-d-read-more read-more js-read-more read-more--medium-down read-more--expanded">\n<div class="js-xd-read-more-toggle-view read-more__toggle-view">\n<div class="js-xd-read-more-contents l-mar-top-3 has-user-generated-content">\n<p><span>Rwanda Safari Guides Association (RSGA) is a non-profit making organization that was established in 2005, following the fact that there was a need of a body that can bring together all Safari Guides in Rwanda with an aim of promoting guiding professionalism.</span></p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n<div class="l-align-center g-cell g-cell-1-1 g-cell-lg-10-12 g-offset-lg-1-12 l-sm-pad-bot-5 l-pad-bot-6 org-panel-actions btn-group l-mar-top-2">\n<div class="l-mar-top-2 g-cell g-cell-1-11">\n<div>&nbsp;</div>\n</div>\n</div>'} by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo">
+2018-06-11 21:01:34,222  INFO     462c5e69554c4152  indico.rh                 GET /event/1/manage/settings/classification?_=1528743062169 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:02:32,001  INFO     b917f248d2ab46ac  indico.rh                 GET /event/1/manage/attachments/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:03:00,693  INFO     f0e156a608e54651  indico.rh                 GET /event/1/manage/attachments/add/files?_=1528743755015 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:03:54,783  INFO     3b233d15198e4cac  indico.rh                 POST /event/1/manage/attachments/add/files [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:03:55,536  INFO     3b233d15198e4cac  indico.attachments        Attachment <Attachment(1, fossir.pdf, <AttachmentFile(1, 1, fossir.pdf, application/pdf)>, protection_mode=inheriting, 1)> uploaded by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo">
+2018-06-11 21:04:07,243  INFO     0380c77a68a2446d  indico.rh                 GET /event/1/manage/abstracts/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:04:23,109  INFO     3ed391e1ec0c46bd  indico.rh                 PUT /event/1/manage/features/abstracts [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:04:23,243  INFO     3ed391e1ec0c46bd  indico.events.features    Feature 'abstracts' for event <Event(1, 2018-06-14 07:20:00+00:00, 2018-06-28 09:00:00+00:00): "Public lectures"> enabled by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo">
+2018-06-11 21:04:23,536  INFO     6baab289fad24314  indico.rh                 GET /event/1/manage/abstracts/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:05:04,481  INFO     50520a93d74b4107  indico.rh                 GET /event/1/manage/papers/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:05:13,016  INFO     1be7fde32f2144ac  indico.rh                 PUT /event/1/manage/features/papers [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:05:13,156  INFO     1be7fde32f2144ac  indico.events.features    Feature 'papers' for event <Event(1, 2018-06-14 07:20:00+00:00, 2018-06-28 09:00:00+00:00): "Public lectures"> enabled by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo">
+2018-06-11 21:05:13,430  INFO     39cc497d23e5463c  indico.rh                 GET /event/1/manage/papers/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:05:33,412  INFO     526b3ccf003f4054  indico.rh                 GET /event/1/manage/reminders/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:05:40,427  INFO     fea5b7f1bfb1440a  indico.rh                 GET /event/1/manage/reminders/add?_=1528743934260 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:06:05,804  INFO     d1078f5486c041dd  indico.rh                 POST /event/1/manage/reminders/preview [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:06:43,375  INFO     aaca2c17dd424539  indico.rh                 POST /event/1/manage/reminders/preview [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:07:27,123  INFO     addf1d4382404423  indico.rh                 POST /event/1/manage/reminders/add [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:07:43,646  INFO     17b0c86e29bf4a81  indico.rh                 GET /event/1/manage/roles/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:07:52,010  INFO     c2e611d9a08b442f  indico.rh                 GET /event/1/manage/roles/create?_=1528744064726 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:08:09,294  INFO     72b3ea4100044d32  indico.rh                 GET /event/1/manage/registration/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:08:26,429  INFO     6494a521be5943f1  indico.rh                 PUT /event/1/manage/features/payment [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:08:26,626  INFO     6494a521be5943f1  indico.events.features    Feature 'payment' for event <Event(1, 2018-06-14 07:20:00+00:00, 2018-06-28 09:00:00+00:00): "Public lectures"> enabled by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo">
+2018-06-11 21:08:36,484  INFO     8b5035ba836a43be  indico.rh                 GET /event/1/manage/registration/create [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:09:04,750  INFO     0eb47970d8a14beb  indico.rh                 GET /event/1/manage/rooms/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:09:05,049  INFO     5efd44a371cb42f9  indico.rh                 GET /event/1/manage/rooms/choose-event [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:09:19,578  INFO     b1de394a47634d5c  indico.rh                 GET /event/1/manage/rooms/book?assign=nothing [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:09:23,265  INFO     64c402d982e84289  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/event/1/manage/rooms/book?assign=nothing', u'params': {u'start_date': u'2018-06-14', u'end_date': u'2018-06-28'}, u'method': u'roomBooking.getDateWarning'}
+2018-06-11 21:09:47,126  INFO     cb41e061e5ca46ba  indico.rh                 GET /event/1/manage/logs/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:10:22,431  INFO     f09275152e604981  indico.rh                 GET /event/1/manage/layout/images/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:10:31,817  INFO     b8fd4cc14a6d4659  indico.rh                 GET /event/1/manage/layout/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:11:07,076  INFO     d5712e9273cc4e97  indico.rh                 GET /event/1/manage/layout/menu/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:11:13,603  INFO     57e5d3dc27894ca5  indico.rh                 POST /event/1/manage/layout/menu/toggle-customize [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:11:14,016  INFO     57e5d3dc27894ca5  indico.events.layout      Menu customization for <Event(1, 2018-06-14 07:20:00+00:00, 2018-06-28 09:00:00+00:00): "Public lectures"> enabled by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo">
+2018-06-11 21:11:14,140  INFO     27a89ad8febb41a2  indico.rh                 GET /event/1/manage/layout/menu/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:11:47,042  INFO     3b0f038bdedc4bf5  indico.rh                 GET /event/1/manage/designer/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:12:07,948  INFO     e07028e64d344bda  indico.rh                 GET /event/1/manage/features/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:13:15,212  INFO     44529088246c4fd1  indico.rh                 GET /event/1/manage/sessions/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:13:30,007  INFO     b4256b4f5a5c4881  indico.rh                 GET /event/1/manage/sessions/create?_=1528744396929 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:14:04,181  INFO     4ff68c74850b4213  indico.rh                 GET / [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:14:29,502  INFO     b9ec4a39f6974071  indico.rh                 GET /category/0/events.ics [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:14:40,783  INFO     2c170b57020c488d  indico.rh                 GET /category/0/manage/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:14:43,438  INFO     fc5e4d99d88c48f3  indico.rh                 GET /category/0/info [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:15:02,290  INFO     85ee2344939b4d0f  indico.rh                 POST /category/0/info-from [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:15:17,180  INFO     09239fb42ee246b7  indico.rh                 GET /category/0/manage/attachments/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:15:21,806  INFO     35662ef5e06345fc  indico.rh                 GET /category/0/manage/designer/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:15:27,363  INFO     9e9d3d942fcc4bfc  indico.rh                 GET /category/0/manage/designer/add?_=1528744522718 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:15:43,795  INFO     bdfb53184c064326  indico.rh                 POST /category/0/manage/designer/add [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:15:52,514  INFO     aa2d8ea6a2cf4d59  indico.rh                 POST /category/0/manage/designer/2/clone [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:16:01,397  INFO     db37bbe573f54fb7  indico.rh                 DELETE /category/0/manage/designer/3/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:16:04,317  INFO     ebfecb781f7c4741  indico.rh                 GET /category/0/manage/attachments/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:16:27,121  INFO     8ae78eb311ef4a8a  indico.rh                 GET /event/create/conference?category_id=0&_=1528744565115 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:16:27,922  INFO     4647c9775a2c47ab  indico.rh                 GET /category/0/info [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:17:11,146  INFO     2948260c70dd471d  indico.rh                 GET / [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:17:15,875  INFO     8b3ecc0b9d144a96  indico.rh                 GET /event/1/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:17:59,169  INFO     830ea7bed3eb46db  indico.rh                 GET /event/1/registrations/participants [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:18:07,589  INFO     d22064ee8dbd4766  indico.rh                 GET /event/1/book-of-abstracts.pdf [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:18:08,401  ERROR    d22064ee8dbd4766  indico.flask              Impossible to compile '/home/hodard/dev/indico/data/tmp/indico-texgen-Xo6aSq/book_of_abstracts.tpl.tex'. Read '/home/hodard/dev/indico/data/tmp/indico-texgen-Xo6aSq/output.log' for details
+Traceback (most recent call last):
+  File "/home/hodard/dev/indico/env/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hodard/dev/indico/env/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hodard/dev/indico/src/indico/web/flask/util.py", line 114, in wrapper
+    return obj().process()
+  File "/home/hodard/dev/indico/src/indico/web/rh.py", line 289, in process
+    res = self._do_process()
+  File "/home/hodard/dev/indico/src/indico/modules/events/controllers/base.py", line 63, in _do_process
+    return RHEventBase._do_process(self)
+  File "/home/hodard/dev/indico/src/indico/web/rh.py", line 259, in _do_process
+    rv = self._process()
+  File "/home/hodard/dev/indico/src/indico/modules/events/abstracts/controllers/boa.py", line 48, in _process
+    return send_file('book-of-abstracts.pdf', create_boa(self.event), 'application/pdf')
+  File "/home/hodard/dev/indico/src/indico/modules/events/abstracts/util.py", line 302, in create_boa
+    tmp_path = pdf.generate()
+  File "/home/hodard/dev/indico/src/indico/legacy/pdfinterface/base.py", line 683, in generate
+    pdffile = latex.run(self._tpl_filename, **self._args)
+  File "/home/hodard/dev/indico/src/indico/legacy/pdfinterface/base.py", line 749, in run
+    raise LaTeXRuntimeException(source_filename, log_filename)
+LaTeXRuntimeException: LaTeX compilation of /home/hodard/dev/indico/data/tmp/indico-texgen-Xo6aSq/book_of_abstracts.tpl.tex failed
+2018-06-11 21:19:54,290  INFO     081c0b004b1a4b8c  indico.rh                 GET /event/1/timetable/?view=indico-weeks-view [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:20:00,636  INFO     e222a41f041d488a  indico.rh                 GET /event/1/timetable/?view=standard [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:20:03,765  INFO     7fb483ed99b242ff  indico.rh                 GET /event/1/attachments/package [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:20:06,590  INFO     eacb21425c65476e  indico.rh                 GET /event/1/attachments/package [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:20:18,067  INFO     8f3fb61107c34c36  indico.rh                 POST /event/1/attachments/package [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:20:32,908  INFO     4e44f8248a1143eb  indico.rh                 GET /event/1/manage/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:20:53,205  INFO     8ef4feac5522402f  indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:20:55,476  INFO     1c26b7dc6ec64a34  indico.rh                 GET /admin/version-check?_=1528744853995 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-11 21:21:15,552  WARNING  1c26b7dc6ec64a34  indico.versioncheck       Version check for indico failed: HTTPSConnectionPool(host='pypi.python.org', port=443): Max retries exceeded with url: /pypi/indico/json (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7ff150efea90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+2018-06-12 05:02:27,413  INFO     f8b40ffce44a43db  indico.rh                 GET /event/create/lecture?_=1528744853996 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:02:28,400  INFO     b0d103911b004575  indico.rh                 GET /category/0/info [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:10:53,936  INFO     bf597e85a0c140a6  indico.rh                 POST /event/create/lecture [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:10:55,074  INFO     bf597e85a0c140a6  indico.events             Event <Event(2, 2018-06-12 04:00:00+00:00, 2018-06-12 06:00:00+00:00): "Extended R2E Seminar - 2010 Workshop Preparations"> created in <Category(0): "Home"> by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo"> 
+2018-06-12 05:10:55,439  INFO     bf597e85a0c140a6  indico.events             Event <Event(3, 2018-06-13 04:00:00+00:00, 2018-06-13 06:00:00+00:00): "Extended R2E Seminar - 2010 Workshop Preparations"> created in <Category(0): "Home"> by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo"> 
+2018-06-12 05:10:56,462  INFO     21d68015d39046ea  indico.rh                 GET /event/2/manage/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:11:36,095  INFO     332f6efb9b184075  indico.rh                 GET /event/2/manage/attachments/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:12:17,450  INFO     d5a610bc73994caa  indico.rh                 GET /event/2/manage/attachments/add/files?_=1528773097049 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:13:20,329  INFO     643c99a5a3dc4b76  indico.rh                 POST /event/2/manage/attachments/add/files [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:13:20,622  INFO     643c99a5a3dc4b76  indico.attachments        Attachment <Attachment(2, Time Table for Special Exam.pdf, <AttachmentFile(2, 2, Time_Table_for_Special_Exam.pdf, application/pdf)>, protection_mode=inheriting, 2)> uploaded by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo">
+2018-06-12 05:13:25,528  INFO     6d0d5ad5aca548ac  indico.rh                 GET /event/2/manage/attachments/create-folder?_=1528773097050 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:15:26,540  INFO     e9430ff1f6814c74  indico.rh                 POST /event/2/manage/attachments/create-folder [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:15:26,648  INFO     e9430ff1f6814c74  indico.attachments        Folder <AttachmentFolder(None, Presentation, , protection_mode=inheriting)> created by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo">
+2018-06-12 05:15:41,433  INFO     f69baf00efed4167  indico.rh                 GET /event/2/manage/persons/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:16:06,869  INFO     d2095c76c3fe49c1  indico.rh                 POST /event/2/manage/persons/email [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:18:04,255  INFO     2566825d00d14acd  indico.rh                 POST /event/2/manage/persons/email [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:18:04,721  ERROR    2566825d00d14acd  indico.emails             Flushing queued email "[Indico] Public Lecture" failed; stored data in /home/hodard/dev/indico/data/tmp/failed-email-2018-06-12-xwrjAv
+Traceback (most recent call last):
+  File "/home/hodard/dev/indico/src/indico/core/notifications.py", line 113, in flush_email_queue
+    fn(email, log_entry)
+  File "/home/hodard/dev/indico/src/indico/core/emails.py", line 93, in do_send_email
+    with EmailBackend(timeout=config.SMTP_TIMEOUT) as conn:
+  File "/home/hodard/dev/indico/src/indico/util/emails/backend.py", line 75, in __enter__
+    self.open()
+  File "/home/hodard/dev/indico/src/indico/util/emails/backend.py", line 141, in open
+    self.connection = self.connection_class(self.host, self.port, **connection_params)
+  File "/usr/lib/python2.7/smtplib.py", line 256, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python2.7/smtplib.py", line 316, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python2.7/smtplib.py", line 291, in _get_socket
+    return socket.create_connection((host, port), timeout)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+2018-06-12 05:18:05,316  INFO     6fa92dcdf96c4945  indico.rh                 GET /event/2/manage/persons/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:18:48,055  INFO     760551cf22cc435d  indico.rh                 POST /event/2/manage/persons/email?not_invited_only=1&no_account=1 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:19:02,553  INFO     0b3729a827704f15  indico.rh                 GET /event/2/manage/participants/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:19:10,047  INFO     75c46e2006664b34  indico.rh                 POST /event/2/manage/participants/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:19:11,129  INFO     5cb7294abcd946ea  indico.rh                 GET /event/2/manage/registration/1/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:19:19,239  INFO     43d80dbe312f428a  indico.rh                 POST /event/2/manage/registration/1/open [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:19:19,311  INFO     43d80dbe312f428a  indico.events.registration Registrations for <RegistrationForm(1, 2, Participants)> opened by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo">
+2018-06-12 05:19:19,368  INFO     4cd410f9397a4cd7  indico.rh                 GET /event/2/manage/registration/1/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:19:32,528  INFO     9d36c33819c14e43  indico.rh                 GET /event/2/manage/registration/1/schedule?_=1528773560327 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:20:09,825  INFO     15caf3d9582542ed  indico.rh                 POST /event/2/manage/registration/1/schedule [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:20:09,916  INFO     15caf3d9582542ed  indico.events.registration Registrations for <RegistrationForm(1, 2, Participants)> scheduled by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo">
+2018-06-12 05:20:10,112  INFO     98713fc0993c4103  indico.rh                 GET /event/2/manage/registration/1/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:20:16,996  INFO     e55d9124b7264fcb  indico.rh                 GET /event/2/manage/registration/1/edit [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:21:54,886  INFO     8963c58a29604d7b  indico.rh                 POST /event/2/manage/registration/1/edit [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:21:55,089  INFO     b43c9eee06614a8c  indico.rh                 GET /event/2/manage/registration/1/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:22:05,091  INFO     81244aef84e343e6  indico.rh                 GET /event/2/manage/registration/1/registrations/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:22:24,672  INFO     fe046a70d505405e  indico.rh                 GET /event/2/manage/reminders/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:22:34,302  INFO     ebfb2346d9304292  indico.rh                 GET /event/2/manage/reminders/add?_=1528773745563 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:22:47,738  INFO     ed499078dca0424b  indico.rh                 GET /event/2/manage/surveys/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:23:09,072  INFO     0581b78c928e4626  indico.rh                 GET / [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:23:33,138  INFO     f59442096d2a4f85  indico.rh                 GET /category/0/manage/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:23:35,396  INFO     08fb611060ba49ff  indico.rh                 GET /category/0/info [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:23:49,550  INFO     548693dfb396477a  indico.rh                 GET /category/0/manage/settings [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:25:28,712  INFO     70c3832e70ff4011  indico.rh                 POST /category/0/manage/logo [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:25:28,859  INFO     70c3832e70ff4011  indico.categories         New logo 'american-express.png' uploaded by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo"> (<Category(0): "Home">)
+2018-06-12 05:25:33,768  INFO     033dccab3821440c  indico.rh                 POST /category/0/manage/icon [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:25:33,853  INFO     033dccab3821440c  indico.categories         New icon 'loading.gif' uploaded by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo"> (<Category(0): "Home">)
+2018-06-12 05:26:05,977  INFO     a4ab662cb6134db4  indico.rh                 POST /category/0/manage/settings [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:26:06,113  INFO     a4ab662cb6134db4  indico.categories         Category <Category(0): "Home"> updated by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo">
+2018-06-12 05:26:06,173  INFO     133ccd947c2f4e4c  indico.rh                 GET /category/0/manage/settings [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:26:08,597  INFO     07a4ee5c83004f83  indico.rh                 GET /category/0/icon-61903693.png [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:26:08,640  INFO     bb3d6f3d4e0c4e9e  indico.rh                 GET /category/0/logo-94528371.png [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:26:13,536  INFO     707f0a987c3f470c  indico.rh                 GET / [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:26:16,108  INFO     f6447e8696f24bda  indico.rh                 GET /category/0/logo-94528371.png [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:27:44,661  INFO     4a01208859954252  indico.rh                 GET /rooms/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:27:45,100  INFO     0c50fe7d83aa4d0a  indico.rh                 GET /rooms/book [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:27:48,727  INFO     ba6437636cf44688  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/rooms/book', u'params': {u'start_date': u'2018-06-12', u'end_date': u'2018-06-12'}, u'method': u'roomBooking.getDateWarning'}
+2018-06-12 05:28:05,124  INFO     0e01642503f74eeb  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:28:18,232  INFO     e78b8b893801424f  indico.rh                 GET /admin/networks/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:28:27,062  INFO     6108cbdac0844d5a  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:28:41,300  INFO     924180f0da45445b  indico.rh                 GET /user/dashboard/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:28:56,316  INFO     a552f5d9a006475f  indico.rh                 GET /user/profile/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:29:08,462  INFO     44877c22a7bf4c69  indico.rh                 GET /user/accounts/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:29:27,304  INFO     64efd16888f94e1f  indico.rh                 GET /user/favorites/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:30:18,690  INFO     2f6879f05ee64ac4  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/user/favorites/', u'params': {u'organisation': u'UR-CST', u'surName': u'Mageza', u'name': u'Silas', u'exactMatch': False, u'email': u'silas@ur.ac.rw'}, u'method': u'search.users'}
+2018-06-12 05:30:20,463  INFO     ef0d22e210374bb8  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/user/favorites/', u'params': {u'organisation': u'UR-CST', u'surName': u'Mageza', u'name': u'Silas', u'exactMatch': False, u'email': u'silas@ur.ac.rw'}, u'method': u'search.users'}
+2018-06-12 05:30:27,410  INFO     ba685b86626549dd  indico.rh                 GET /user/accounts/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:30:32,973  INFO     c0c668a974c94f18  indico.rh                 GET /rooms/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:30:33,084  INFO     9e4352bc7fbd41d3  indico.rh                 GET /rooms/book [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:30:36,696  INFO     5a3ebc648cc34fd5  indico.rpc                json rpc request. request: {u'origin': u'http://127.0.0.1:8000/rooms/book', u'params': {u'start_date': u'2018-06-12', u'end_date': u'2018-06-12'}, u'method': u'roomBooking.getDateWarning'}
+2018-06-12 05:54:06,598  INFO     58c833de907b4222  indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:54:09,794  INFO     7df02883f4d945ee  indico.rh                 GET /admin/version-check?_=1528775648117 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:54:29,972  WARNING  7df02883f4d945ee  indico.versioncheck       Version check for indico failed: HTTPSConnectionPool(host='pypi.python.org', port=443): Max retries exceeded with url: /pypi/indico/json (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7ff153e68f10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+2018-06-12 05:54:32,533  INFO     dcba4b9cda164190  indico.rh                 POST /change-timezone [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:54:32,772  INFO     57b6669edce04bef  indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:54:36,430  INFO     7aa97fce38cd46f1  indico.rh                 GET /admin/version-check?_=1528775674705 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 05:54:56,494  WARNING  7aa97fce38cd46f1  indico.versioncheck       Version check for indico failed: HTTPSConnectionPool(host='pypi.python.org', port=443): Max retries exceeded with url: /pypi/indico/json (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7ff174401810>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+2018-06-12 07:30:45,709  INFO     57b258436bcf407c  indico.rh                 GET / [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 07:30:48,474  INFO     9a2c82b5649c4353  indico.rh                 GET /category/0/logo-94528371.png [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 08:10:52,978  INFO     a0f4176f755d4125  indico.rh                 GET /event/3/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:34:11,242  INFO     74f4f20b1c094217  indico.rh                 GET /category/0/logo-94528371.png [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:34:30,323  INFO     0118bf3ac315468f  indico.rh                 GET / [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:34:34,754  INFO     3270784e5b1e4715  indico.rh                 GET /category/0/logo-94528371.png [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:35:08,058  INFO     7304cd373d7f4176  indico.rh                 GET / [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:35:11,946  INFO     211c312a4018414e  indico.rh                 GET /category/0/logo-94528371.png [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:38:28,745  INFO     602aef3af19b492c  indico.rh                 GET /event/create/lecture?category_id=0&_=1528792509872 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:38:29,634  INFO     f4d7c772cffb4cf4  indico.rh                 GET /category/0/info [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:41:48,449  INFO     f92cdb0337994e1b  indico.rh                 POST /event/create/lecture [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:41:49,086  INFO     f92cdb0337994e1b  indico.events             Event <Event(4, 2018-06-14 09:00:00+00:00, 2018-06-14 11:00:00+00:00): "Public lectures"> created in <Category(0): "Home"> by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo"> 
+2018-06-12 10:41:49,855  INFO     f0f5c17227324030  indico.rh                 GET /event/4/manage/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:42:15,670  INFO     8aaa540fe73d41ab  indico.rh                 GET /event/4/manage/attachments/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:42:38,749  INFO     74064967ee7347bc  indico.rh                 GET /event/4/manage/attachments/add/files?_=1528792936471 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:43:30,711  INFO     5c3325bc223948db  indico.rh                 POST /event/4/manage/attachments/add/files [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:43:30,961  INFO     5c3325bc223948db  indico.attachments        Attachment <Attachment(3, School MIS.pdf, <AttachmentFile(3, 3, School_MIS.pdf, application/pdf)>, protection_mode=inheriting, 4)> uploaded by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo">
+2018-06-12 10:43:36,525  INFO     f46c58012d5c44ca  indico.rh                 GET /event/4/manage/persons/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:44:02,956  INFO     6953c0a631784456  indico.rh                 POST /event/4/manage/persons/email?no_account=1 [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:49:35,225  INFO     0725d56f5d80443a  indico.rh                 GET /event/4/manage/participants/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:50:10,850  INFO     4ac248b1368e4147  indico.rh                 POST /event/4/manage/participants/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:50:11,591  INFO     555a411134e74a20  indico.rh                 GET /event/4/manage/registration/2/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:50:32,207  INFO     d339b50b078f4f48  indico.rh                 GET /event/4/manage/registration/2/form/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:52:08,362  INFO     aa58b5a959aa4935  indico.rh                 GET /category/0/manage/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:52:11,080  INFO     0341bd10810b43b8  indico.rh                 GET /category/0/info [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:52:15,642  INFO     7a35fdf3a8e244f3  indico.rh                 GET /event/3/manage/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:52:26,517  INFO     2160de0ab3214818  indico.rh                 GET /event/3/manage/participants/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:52:50,086  INFO     912d2088f0524544  indico.rh                 GET /event/3/manage/designer/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:53:06,944  INFO     13bc41bb183a41b9  indico.rh                 GET /event/3/manage/logs/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:53:34,602  INFO     6ffe033aed644f92  indico.rh                 GET /event/3/manage/participants/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-12 10:53:41,687  INFO     bfc49910e88f4a5d  indico.rh                 GET /event/3/manage/participants/ [IP=127.0.0.1] [PID=3069] [UID=1]
+2018-06-15 18:22:47,555  INFO     93d9f42cfbfc4260  indico.rh                 GET / [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:22:55,471  INFO     2c4e89ea76a44ecf  indico.rh                 GET /category/0/logo-94528371.png [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:23:33,628  INFO     bae15f2375ce4f70  indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:23:37,231  INFO     6c517cadca2e4202  indico.rh                 GET /admin/version-check?_=1529079815797 [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:24:41,381  INFO     49f6a0f1aa4d4f1c  indico.rh                 GET /admin/legal [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:25:11,040  INFO     fd331cb632394b3e  indico.rh                 GET /admin/plugins/ [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:25:11,263  INFO     97077f6ae09c4926  indico.rh                 GET /admin/plugins/ [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:25:17,273  INFO     24ac900abadd48f9  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:25:17,585  INFO     3fd64fb320904528  indico.rh                 GET /admin/rooms/locations/ [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:25:27,949  INFO     3b9faa47cfcf4470  indico.rh                 GET /admin/announcement [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:26:10,024  INFO     d32b64d5af0044d2  indico.rh                 POST /admin/announcement [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:26:10,294  INFO     0570253d59204fff  indico.rh                 GET /admin/announcement [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:26:31,687  INFO     e18fb81009cd40d3  indico.rh                 GET / [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:26:33,156  INFO     df0e47a18f5b4024  indico.rh                 GET /category/0/logo-94528371.png [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:26:44,312  INFO     4dd5ced2174c4f8e  indico.rh                 GET / [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:26:46,611  INFO     d185db1ea56346c6  indico.rh                 GET /category/0/logo-94528371.png [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:26:57,210  INFO     2e646d38d84c4b30  indico.rh                 GET /admin/settings/ [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:26:59,386  INFO     85b0bb02545447d2  indico.rh                 GET /admin/version-check?_=1529080017970 [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:26:59,412  WARNING  85b0bb02545447d2  indico.versioncheck       Version check for indico failed: HTTPSConnectionPool(host='pypi.python.org', port=443): Max retries exceeded with url: /pypi/indico/json (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fdd5eb978d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',))
+2018-06-15 18:27:04,210  INFO     9e86042d5c384717  indico.rh                 GET /admin/announcement [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:27:18,975  INFO     3a49324c4f544fb8  indico.rh                 POST /admin/announcement [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:27:19,092  INFO     12b3a62ae92640a1  indico.rh                 GET /admin/announcement [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:27:26,240  INFO     069a59061da54c82  indico.rh                 GET /admin/news/ [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:27:26,548  INFO     5410c07fb2384233  indico.rh                 GET /admin/news/ [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:27:32,426  INFO     815a4c6858fc47a1  indico.rh                 GET /admin/news/create?_=1529080047745 [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:30:06,426  INFO     452d1a17940d40ce  indico.rh                 POST /admin/news/create [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:30:06,493  INFO     452d1a17940d40ce  indico.news               News <NewsItem(1): "New Event for next generation"> created by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo">
+2018-06-15 18:30:06,744  INFO     82deac3d065b4097  indico.rh                 GET /admin/news/ [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:30:15,781  INFO     b9094f5c6c0641f2  indico.rh                 GET /admin/news/create?_=1529080208560 [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:30:55,407  INFO     45dd5a995574456e  indico.rh                 POST /admin/news/create [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:30:55,441  INFO     45dd5a995574456e  indico.news               News <NewsItem(2): "Welcome"> created by <User(1, hodardhazwinayo@gmail.com): "Hodard Hazwinayo">
+2018-06-15 18:30:55,638  INFO     cc30752cf7d54cec  indico.rh                 GET /admin/news/ [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:31:04,440  INFO     19bbde20f9e74956  indico.rh                 GET / [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:31:06,568  INFO     efc3f1618c02404d  indico.rh                 GET /category/0/logo-94528371.png [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-15 18:31:11,806  INFO     34b3274b24e8429a  indico.rh                 GET /news [IP=127.0.0.1] [PID=9106] [UID=1]
+2018-06-16 09:30:10,471  INFO     ae9ae253a76047a1  indico.rh                 GET /news [IP=127.0.0.1] [PID=11246] [UID=1]

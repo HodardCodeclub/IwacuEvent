@@ -1,0 +1,35 @@
+# -*- coding:utf-8 -*-
+from mako import runtime, filters, cache
+UNDEFINED = runtime.UNDEFINED
+STOP_RENDERING = runtime.STOP_RENDERING
+__M_dict_builtin = dict
+__M_locals_builtin = locals
+_magic_number = 10
+_modified_time = 1528743847.947361
+_enable_loop = True
+_template_filename = '/home/hodard/dev/indico/src/indico/legacy/webinterface/tpls/js/mathjax.config.js.tpl'
+_template_uri = 'js/mathjax.config.js.tpl'
+_source_encoding = 'utf-8'
+from indico.util.json import dumps as j
+from indico.util.string import encode_if_unicode, sanitize_html
+from indico.util.string import render_markdown_utf8 as m
+from indico.util.i18n import _
+_exports = []
+
+
+def render_body(context,**pageargs):
+    __M_caller = context.caller_stack._push_frame()
+    try:
+        __M_locals = __M_dict_builtin(pageargs=pageargs)
+        __M_writer = context.writer()
+        __M_writer('<script type="text/x-mathjax-config">\n\nMathJax.Hub.Config({\n  config: [],\n  styleSheets: [],\n  styles: {},\n  jax: ["input/TeX","output/HTML-CSS"],\n  extensions: ["tex2jax.js"],\n  preJax: null,\n  postJax: null,\n  preRemoveClass: "MathJax_Preview",\n  showProcessingMessages: true,\n  messageStyle: "normal",\n  displayAlign: "center",\n  displayIndent: "0em",\n  delayStartupUntil: "none",\n  skipStartupTypeset: true,\n  elements: [],\n  positionToHash: false,\n  showMathMenu: true,\n  showMathMenuMSIE: true,\n\n  menuSettings: {\n    zoom: "None",        //  when to do MathZoom\n    CTRL: false,         //    require CTRL for MathZoom?\n    ALT: false,          //    require Alt or Option?\n    CMD: false,          //    require CMD?\n    Shift: false,        //    require Shift?\n    zscale: "200%",      //  the scaling factor for MathZoom\n    font: "Auto",        //  what font HTML-CSS should use\n    context: "MathJax",  //  or "Browser" for pass-through to browser menu\n    mpContext: false,    //  true means pass menu events to MathPlayer in IE\n    mpMouse: false,      //  true means pass mouse events to MathPlayer in IE\n    texHints: true       //  include class names for TeXAtom elements\n  },\n\n  errorSettings: {\n    message: ["[Math Processing Error]"], // HTML snippet structure for message to use\n    messageId: "MathProcessingError",     // ID of snippet for localization\n    style: {color: "#CC0000", "font-style":"italic"}  // style for message\n  },\n\n  tex2jax: {\n    inlineMath: [\n      [\'$\',\'$\']\n    ],\n\n    displayMath: [\n      [\'$$\',\'$$\'],\n      [\'\\\\[\',\'\\\\]\']\n    ],\n\n    balanceBraces: true,\n    skipTags: ["script","noscript","style","textarea","pre","code"],\n    ignoreClass: "tex2jax_ignore",\n    processClass: "tex2jax_process",\n    processEscapes: false,\n    processEnvironments: true,\n    processRefs: true,\n\n    preview: "TeX"\n\n  },\n\n  asciimath2jax: {\n\n    delimiters: [\n      [\'`\',\'`\']\n    ],\n\n    skipTags: ["script","noscript","style","textarea","pre","code"],\n\n    ignoreClass: "asciimath2jax_ignore",\n\n    processClass: "asciimath2jax_process",\n\n    preview: "AsciiMath"\n\n  },\n\n  mml2jax: {\n\n    preview: "alttext"\n\n  },\n\n  jsMath2jax: {\n\n    preview: "TeX"\n\n  },\n\n  TeX: {\n\n    TagSide: "right",\n\n    TagIndent: ".8em",\n\n    MultLineWidth: "85%",\n\n    Macros: {},\n\n    equationNumbers: {\n      autoNumber: "none",  // "AMS" for standard AMS environment numbering,\n      useLabelIds: true    // make element ID\'s use \\label name rather than equation number\n    },\n\n    noErrors: {\n      disabled: false,               // set to true to return to original error messages\n      multiLine: true,               // false to not include original line breaks\n      inlineDelimiters: ["",""],     // or use ["$","$"] or ["\\\\(","\\\\)"] to put back delimiters\n      style: {\n        "font-size":   "90%",\n        "text-align":  "left",\n        "color":       "black",\n        "padding":     "1px 3px",\n        "border":      "1px solid"\n      }\n    },\n\n    noUndefined: {\n      disabled: false,      // set to true to return to original error messages\n      attributes: {         // attributes to set for the undefined control sequence\n        mathcolor: "red"\n      }\n    },\n\n    unicode: {\n      fonts: "STIXGeneral,\'Arial Unicode MS\'"  // the default font list for unknown characters\n    }\n\n  },\n\n  AsciiMath: {\n    displaystyle: true,\n\n    decimal: "."\n  },\n\n  MathML: {\n    useMathMLspacing: false\n  },\n\n  "HTML-CSS": {\n\n    scale: 100,\n\n    minScaleAdjust: 50,\n\n    availableFonts: ["STIX","TeX"],\n\n    preferredFont: "TeX",\n\n    webFont: "TeX",\n\n    imageFont: "TeX",\n\n    undefinedFamily: "STIXGeneral,\'Arial Unicode MS\',serif",\n\n    mtextFontInherit: false,\n\n    EqnChunk: 50,\n    EqnChunkFactor: 1.5,\n    EqnChunkDelay: 100,\n\n    linebreaks: {\n\n      automatic: false,\n\n      width: "container"\n    },\n\n    styles: {},\n\n    tooltip: {\n      delayPost: 600,          // milliseconds delay before tooltip is posted after mouseover\n      delayClear: 600,         // milliseconds delay before tooltip is cleared after mouseout\n      offsetX: 10, offsetY: 5  // pixels to offset tooltip from mouse position\n    }\n  },\n\n  NativeMML: {\n\n    scale: 100,\n\n    minScaleAdjust: 50,\n\n    styles: {}\n  },\n\n  "SVG": {\n\n    scale: 100,\n\n    minScaleAdjust: 50,\n\n    font: "TeX",\n\n    blacker: 10,\n\n    undefinedFamily: "STIXGeneral,\'Arial Unicode MS\',serif",\n\n    mtextFontInherit: false,\n\n    addMMLclasses: false,\n\n    EqnChunk: 50,\n    EqnChunkFactor: 1.5,\n    EqnChunkDelay: 100,\n\n    linebreaks: {\n\n      automatic: false,\n\n      width: "container"\n    },\n\n    styles: {},\n\n    tooltip: {\n      delayPost: 600,          // milliseconds delay before tooltip is posted after mouseover\n      delayClear: 600,         // milliseconds delay before tooltip is cleared after mouseout\n      offsetX: 10, offsetY: 5  // pixels to offset tooltip from mouse position\n    }\n  },\n\n  MathMenu: {\n    delay: 150,\n\n    helpURL: "http://www.mathjax.org/help-v2/user/",\n\n    showRenderer: true,\n    showMathPlayer: true,\n    showFontMenu: false,\n    showContext:  false,\n    showDiscoverable: false,\n\n    windowSettings: {\n      status: "no", toolbar: "no", locationbar: "no", menubar: "no",\n      directories: "no", personalbar: "no", resizable: "yes", scrollbars: "yes",\n      width: 100, height: 50\n    },\n\n    styles: {}\n\n  },\n\n  MathEvents: {\n    hover: 500\n  },\n\n  MMLorHTML: {\n    prefer: {\n      MSIE:    "MML",\n      Firefox: "HTML",\n      Opera:   "HTML",\n      Safari:  "HTML",\n      Chrome:  "HTML",\n      other:   "HTML"\n    }\n  }\n});\n\n</script>')
+        return ''
+    finally:
+        context.caller_stack._pop_frame()
+
+
+"""
+__M_BEGIN_METADATA
+{"source_encoding": "utf-8", "line_map": {"25": 1, "20": 0, "31": 25}, "uri": "js/mathjax.config.js.tpl", "filename": "/home/hodard/dev/indico/src/indico/legacy/webinterface/tpls/js/mathjax.config.js.tpl"}
+__M_END_METADATA
+"""
